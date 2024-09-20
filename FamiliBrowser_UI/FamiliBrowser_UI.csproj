@@ -94,5 +94,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MVVM\Models\" />
+    <Folder Include="MVVM\ViewModels\" />
+    <Folder Include="MVVM\Views\" />
+    <Folder Include="src\font\" />
+    <Folder Include="src\img\" />
+    <Folder Include="src\Styles\" />
+    <Folder Include="utilities\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
