@@ -67,8 +67,58 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MVVM\Views\AccountView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\Views\AdminView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\Views\FamilyView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\Views\FavorisView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\Views\HomeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\Views\LoginView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\Views\SettingsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MVVM\Models\PageModel.cs" />
+    <Compile Include="MVVM\Views\AccountView.xaml.cs">
+      <DependentUpon>AccountView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\Views\AdminView.xaml.cs">
+      <DependentUpon>AdminView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\Views\FamilyView.xaml.cs">
+      <DependentUpon>FamilyView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\Views\FavorisView.xaml.cs">
+      <DependentUpon>FavorisView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\Views\HomeView.xaml.cs">
+      <DependentUpon>HomeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\Views\LoginView.xaml.cs">
+      <DependentUpon>LoginView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\Views\SettingsView.xaml.cs">
+      <DependentUpon>SettingsView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -95,13 +145,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="MVVM\Models\" />
     <Folder Include="MVVM\ViewModels\" />
-    <Folder Include="MVVM\Views\" />
     <Folder Include="src\font\" />
-    <Folder Include="src\img\" />
     <Folder Include="src\Styles\" />
     <Folder Include="utilities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="src\img\teapot.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
