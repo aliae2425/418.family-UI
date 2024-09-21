@@ -98,6 +98,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MVVM\Models\PageModel.cs" />
+    <Compile Include="MVVM\ViewModels\AccountViewModel.cs" />
+    <Compile Include="MVVM\ViewModels\AdminViewModel.cs" />
+    <Compile Include="MVVM\ViewModels\FamilyViewModel.cs" />
+    <Compile Include="MVVM\ViewModels\FavorisViewModel.cs" />
+    <Compile Include="MVVM\ViewModels\HomeViewModel.cs" />
+    <Compile Include="MVVM\ViewModels\LoginViewModel.cs" />
+    <Compile Include="MVVM\ViewModels\NavigationViewModel.cs" />
+    <Compile Include="MVVM\ViewModels\SettingsViewModel.cs" />
     <Compile Include="MVVM\Views\AccountView.xaml.cs">
       <DependentUpon>AccountView.xaml</DependentUpon>
     </Compile>
@@ -145,7 +153,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="MVVM\ViewModels\" />
     <Folder Include="src\font\" />
     <Folder Include="src\Styles\" />
     <Folder Include="utilities\" />
