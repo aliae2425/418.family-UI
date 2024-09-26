@@ -23,6 +23,7 @@ namespace FamiliBrowser_UI.MVVM.Views
         public CustomerView()
         {
             InitializeComponent();
+           
         }
     }
 }

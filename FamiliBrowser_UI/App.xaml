@@ -7,6 +7,11 @@
 
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
+
+                <ResourceDictionary Source="src/Styles/Image.xaml"/>
+                <ResourceDictionary Source="src/Styles/Button.xaml"/>
+                <ResourceDictionary Source="src/Styles/Page.xaml"/>
+                <ResourceDictionary Source="src/Styles/Text.xaml"/>
                 <ResourceDictionary Source="utilities/DataTemplate.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
