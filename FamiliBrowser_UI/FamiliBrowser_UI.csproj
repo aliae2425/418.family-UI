@@ -55,6 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MVVM\Models\Familly.cs" />
+    <Compile Include="MVVM\Models\User.cs" />
     <Compile Include="utilities\Btn.cs" />
     <Compile Include="utilities\RelayCommand.cs" />
     <Compile Include="utilities\ViewModelBase.cs" />
